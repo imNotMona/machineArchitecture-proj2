@@ -11,8 +11,8 @@ info for make is within file, but pasted here for convenience
 ->make test                     # makes test-bitwise test-puzzlebox // runs written code & compares to answers
 ->make bitwise                  # compiles my written code
 ->make bitwise test             # compare written codes result to answer, outputs differences
-->make puzzlebox                # compiles my written code
-->make puzzlebox test           # compare written codes result to answer, outputs differences
+->make puzzlebox                # compiles pre-made C puzzle file
+->make puzzlebox test           # compare input.txt and runs with puzzle file to see if it passes
 
 since puzzlebox is simply asking for a hash to pass all the test, all that is needed for that portion
 is the correct reverse engineered hash by analyzing 'puzzlebox.c'
